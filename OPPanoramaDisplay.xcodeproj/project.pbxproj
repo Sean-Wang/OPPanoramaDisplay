@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84A2FF981640F04A001C79AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A2FF971640F04A001C79AF /* UIKit.framework */; };
+		84A2FF9A1640F04A001C79AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A2FF991640F04A001C79AF /* Foundation.framework */; };
+		84A2FF9C1640F04A001C79AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A2FF9B1640F04A001C79AF /* CoreGraphics.framework */; };
+		84A2FFA21640F04A001C79AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84A2FFA01640F04A001C79AF /* InfoPlist.strings */; };
+		84A2FFA41640F04A001C79AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A2FFA31640F04A001C79AF /* main.m */; };
+		84A2FFA81640F04A001C79AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A2FFA71640F04A001C79AF /* AppDelegate.m */; };
+		84A2FFAB1640F04A001C79AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A2FFAA1640F04A001C79AF /* ViewController.m */; };
+		84A2FFAE1640F04A001C79AF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A2FFAC1640F04A001C79AF /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84A2FF931640F04A001C79AF /* OPPanoramaDisplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OPPanoramaDisplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A2FF971640F04A001C79AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84A2FF991640F04A001C79AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84A2FF9B1640F04A001C79AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84A2FF9F1640F04A001C79AF /* OPPanoramaDisplay-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OPPanoramaDisplay-Info.plist"; sourceTree = "<group>"; };
+		84A2FFA11640F04A001C79AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84A2FFA31640F04A001C79AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84A2FFA51640F04A001C79AF /* OPPanoramaDisplay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OPPanoramaDisplay-Prefix.pch"; sourceTree = "<group>"; };
+		84A2FFA61640F04A001C79AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84A2FFA71640F04A001C79AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84A2FFA91640F04A001C79AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84A2FFAA1640F04A001C79AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84A2FFAD1640F04A001C79AF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84A2FF901640F04A001C79AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A2FF981640F04A001C79AF /* UIKit.framework in Frameworks */,
+				84A2FF9A1640F04A001C79AF /* Foundation.framework in Frameworks */,
+				84A2FF9C1640F04A001C79AF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84A2FF881640F04A001C79AF = {
+			isa = PBXGroup;
+			children = (
+				84A2FF9D1640F04A001C79AF /* OPPanoramaDisplay */,
+				84A2FF961640F04A001C79AF /* Frameworks */,
+				84A2FF941640F04A001C79AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84A2FF941640F04A001C79AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84A2FF931640F04A001C79AF /* OPPanoramaDisplay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84A2FF961640F04A001C79AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84A2FF971640F04A001C79AF /* UIKit.framework */,
+				84A2FF991640F04A001C79AF /* Foundation.framework */,
+				84A2FF9B1640F04A001C79AF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84A2FF9D1640F04A001C79AF /* OPPanoramaDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				84A2FFA61640F04A001C79AF /* AppDelegate.h */,
+				84A2FFA71640F04A001C79AF /* AppDelegate.m */,
+				84A2FFA91640F04A001C79AF /* ViewController.h */,
+				84A2FFAA1640F04A001C79AF /* ViewController.m */,
+				84A2FFAC1640F04A001C79AF /* ViewController.xib */,
+				84A2FF9E1640F04A001C79AF /* Supporting Files */,
+			);
+			path = OPPanoramaDisplay;
+			sourceTree = "<group>";
+		};
+		84A2FF9E1640F04A001C79AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84A2FF9F1640F04A001C79AF /* OPPanoramaDisplay-Info.plist */,
+				84A2FFA01640F04A001C79AF /* InfoPlist.strings */,
+				84A2FFA31640F04A001C79AF /* main.m */,
+				84A2FFA51640F04A001C79AF /* OPPanoramaDisplay-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84A2FF921640F04A001C79AF /* OPPanoramaDisplay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A2FFB11640F04A001C79AF /* Build configuration list for PBXNativeTarget "OPPanoramaDisplay" */;
+			buildPhases = (
+				84A2FF8F1640F04A001C79AF /* Sources */,
+				84A2FF901640F04A001C79AF /* Frameworks */,
+				84A2FF911640F04A001C79AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OPPanoramaDisplay;
+			productName = OPPanoramaDisplay;
+			productReference = 84A2FF931640F04A001C79AF /* OPPanoramaDisplay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84A2FF8A1640F04A001C79AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Sean;
+			};
+			buildConfigurationList = 84A2FF8D1640F04A001C79AF /* Build configuration list for PBXProject "OPPanoramaDisplay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84A2FF881640F04A001C79AF;
+			productRefGroup = 84A2FF941640F04A001C79AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84A2FF921640F04A001C79AF /* OPPanoramaDisplay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84A2FF911640F04A001C79AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A2FFA21640F04A001C79AF /* InfoPlist.strings in Resources */,
+				84A2FFAE1640F04A001C79AF /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84A2FF8F1640F04A001C79AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A2FFA41640F04A001C79AF /* main.m in Sources */,
+				84A2FFA81640F04A001C79AF /* AppDelegate.m in Sources */,
+				84A2FFAB1640F04A001C79AF /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84A2FFA01640F04A001C79AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A2FFA11640F04A001C79AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84A2FFAC1640F04A001C79AF /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A2FFAD1640F04A001C79AF /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84A2FFAF1640F04A001C79AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		84A2FFB01640F04A001C79AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84A2FFB21640F04A001C79AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OPPanoramaDisplay/OPPanoramaDisplay-Prefix.pch";
+				INFOPLIST_FILE = "OPPanoramaDisplay/OPPanoramaDisplay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84A2FFB31640F04A001C79AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OPPanoramaDisplay/OPPanoramaDisplay-Prefix.pch";
+				INFOPLIST_FILE = "OPPanoramaDisplay/OPPanoramaDisplay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84A2FF8D1640F04A001C79AF /* Build configuration list for PBXProject "OPPanoramaDisplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A2FFAF1640F04A001C79AF /* Debug */,
+				84A2FFB01640F04A001C79AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A2FFB11640F04A001C79AF /* Build configuration list for PBXNativeTarget "OPPanoramaDisplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A2FFB21640F04A001C79AF /* Debug */,
+				84A2FFB31640F04A001C79AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84A2FF8A1640F04A001C79AF /* Project object */;
+}
